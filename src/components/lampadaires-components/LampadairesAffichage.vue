@@ -22,6 +22,20 @@ function afficheDetail(id) {
       Un hommage non-sollicité, mais ô combien éclairant.
     </p>
 
+    <p>
+      Aussi simples qu'ils puissent paraître, les lampadaires de Lyon racontent à leur manière l’histoire discrète des rues qu’ils 
+      éclairent. Qu’ils soient de vieux modèles en fonte au charme rétro dans les ruelles du Vieux Lyon, de hautes silhouettes 
+      modernes aux halos blancs sur les quais rénovés, ou de petites boules lumineuses suspendues dans les places cachées, chaque 
+      lampadaire apporte sa touche à l’atmosphère nocturne de la ville. Certains projettent une lumière douce et jaune qui réchauffe 
+      les pavés, d’autres s’imposent par une clarté presque irréelle, et il arrive même que l’on croise un réverbère enveloppé d’une 
+      toile d’araignée, scintillant au gré des reflets de la nuit. Ces détails ordinaires façonnent l’âme lumineuse de Lyon, offrant 
+      au promeneur attentif des tableaux inattendus et des ambiances qu’on ne trouve nulle part ailleurs.
+    </p>
+
+    <h2>
+      Découvrez notre séléction de lampadaires!
+    </h2>
+
     <div class="galerie">
       <div class="lampe-card" @click="afficheDetail(1)">
         <img src="../../assets/lampadaire1.jpg" alt="Lampadaire n°1, droit et fier." />
@@ -132,7 +146,16 @@ function afficheDetail(id) {
   font-family: 'Georgia', serif;
 }
 
-
+p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin: 1.5rem 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #444;
+  text-align: justify;
+}
 
 .detail {
   padding: 0.5rem 1rem;

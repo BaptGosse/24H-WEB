@@ -18,7 +18,7 @@ onMounted(() => {
 })
 </script>
 
-<template>
+<template class="background">
   <div class="first-image">
     <img src="/src/assets/place.jpg" />
     <div class="overlay">
@@ -90,16 +90,28 @@ onMounted(() => {
 
 <style scoped>
 
+template{
+  position: relative;
+  padding: 2rem;
+  text-align: center;
+  background-color: whitesmoke;
+  font-family: "Baskerville", "Garamond", "Palatino Linotype", "Times New Roman", serif;
+}
+
 .lampe-card {
   background: #fff;
   border-radius: 1rem;
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 15px 50px rgb(253, 252, 190);
   transition: transform 0.3s ease;
   cursor: pointer;
   max-width: 900px; 
   width: 95%;
   padding: 2rem;
   margin: auto;
+}
+
+.lampe-card:hover {
+  transform: translateY(-5px);
 }
 
 .discover{
@@ -124,6 +136,15 @@ onMounted(() => {
   margin: 0 auto;
   transition: transform 0.6s ease;
   transform: scale(0.9); 
+}
+
+.lampe-card p {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+  font-family: 'Georgia', serif;
+  text-align: center;
 }
 
 .left-title {
