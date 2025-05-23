@@ -5,28 +5,28 @@
 </script>
 
 <template>
-  <section class="expo">
-    <h1 class="titre-expo">Un Raphaël heureux, c'est Lyon qui rayonne</h1>
-    <p class="intro">
-      La lumière ce n'est pas que les lampadaires, les installations mais c'est aussi la lumière de l'écran, la lumière du geek comme Raphael au final. C'est elle qui rassemble et qui illumine nos coeurs.
-    </p>
-    <div class="galerie-neon">
-      <div class="lampe-card-neon">
-        <img src="../../assets/iut-flashbang.jpg" alt="Flashbang." />
-        <p>La lumière éclaire la nuit, et illumine sa vie.</p>
-      </div>
+    <section class="expo">
+        <h1 class="titre-expo">Un Raphaël heureux, c'est Lyon qui rayonne</h1>
+        <p class="intro">
+        La lumière ce n'est pas que les lampadaires, les installations mais c'est aussi la lumière de l'écran, la lumière du geek comme Raphael au final. C'est elle qui rassemble et qui illumine nos coeurs.
+        </p>
+        <div class="galerie-neon">
+            <div class="lampe-card-neon">
+            <img src="../../assets/iut-flashbang.jpg" alt="Flashbang." />
+            <p>La lumière éclaire la nuit, et illumine sa vie.</p>
+            </div>
 
-      <div class="lampe-card-neon">
-        <img src="../../assets/terreur.jpg" alt="Terrifiant." />
-        <p>L'homme à la lumière, terrifiant.</p>
-      </div>
+            <div class="lampe-card-neon">
+            <img src="../../assets/terreur.jpg" alt="Terrifiant." />
+            <p>L'homme à la lumière, terrifiant.</p>
+            </div>
 
-      <div class="lampe-card-neon">
-        <img src="../../assets/geek-clavier.jpg" alt="clavier de geek" />
-        <p>Son clavier éclaire Lyon plus que la Fête des Lumières.</p>
-      </div>
-    </div>
-  </section>
+            <div class="lampe-card-neon">
+                <img src="../../assets/geek-clavier.jpg" alt="clavier de geek" />
+                <p>Son clavier éclaire Lyon plus que la Fête des Lumières.</p>
+            </div>
+        </div>
+    </section>
 </template>
 
 <style scoped>
