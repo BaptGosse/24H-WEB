@@ -7,7 +7,9 @@
 <template>
   <section class="expo">
     <h1 class="titre-expo">Un Raphaël heureux, c'est Lyon qui rayonne</h1>
-    
+    <p class="intro">
+      La lumière ce n'est pas que les lampadaires, les installations mais c'est aussi la lumière de l'écran, la lumière du geek comme Raphael au final. C'est elle qui rassemble et qui illumine nos coeurs.
+    </p>
     <div class="galerie-neon">
       <div class="lampe-card-neon">
         <img src="../../assets/iut-flashbang.jpg" alt="Flashbang." />
@@ -16,7 +18,7 @@
 
       <div class="lampe-card-neon">
         <img src="../../assets/terreur.jpg" alt="Terrifiant." />
-        <p>L'homme à la lumière terrifiant et horrifique.</p>
+        <p>L'homme à la lumière, terrifiant.</p>
       </div>
 
       <div class="lampe-card-neon">
@@ -28,6 +30,15 @@
 </template>
 
 <style scoped>
+
+.intro {
+  font-style: italic;
+  margin-bottom: 4rem;
+  font-weight: bold;
+  font-size: 2rem;
+  color: white;
+}
+
 .expo {
   padding: 4rem 2rem;
   background: linear-gradient(130deg, #111 0%, #2c003e 100%);
