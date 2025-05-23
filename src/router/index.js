@@ -14,7 +14,17 @@ const router = createRouter({
       path: '/lampadaire',
       name: 'lampadaire',
       component: LampadairesAffichage,
-    },    
+    },
+    {
+      path: '/sleeping',
+      name: 'sleeping',
+      component: () => import('../views/SleepingView.vue'),
+    },
+    {
+      path: '/secret',
+      name: 'secret',
+      component: () => import('../views/SecretView.vue'),
+    },
   ],
 })
 
