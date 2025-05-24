@@ -1,0 +1,11 @@
+body.mode-jour {
+    background-color: #fffef3;
+    color: #222;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+body.mode-nuit {
+    background-color: #efef79;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
