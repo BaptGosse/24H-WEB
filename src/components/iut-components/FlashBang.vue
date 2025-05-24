@@ -31,6 +31,10 @@
 
 <style scoped>
 
+* {
+  cursor: url('../../assets/smolraph.png'), auto;
+}
+
 .intro {
   font-style: italic;
   margin-bottom: 4rem;
