@@ -27,7 +27,7 @@
             <img src="../assets/etoile.jpg" alt="Image 3">
             <div class="content">
                 <h2>Dormir à la belle étoile</h2>
-                <p>Pratiquée depuis des millénaires, la sieste en plein air est très agréable, mais il faut faire attention à la météo.</p>
+                <p>Pratiquée depuis des millénaires, la sieste en plein air sous le ciel lyonnais est très agréable, mais il faut faire attention à la météo.</p>
             </div>
         </div>
     </div>

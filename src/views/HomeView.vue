@@ -166,7 +166,6 @@ template{
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding-right: 3rem;
   font-size: 2rem;
   color: #fff;
   text-shadow: 1px 1px 6px rgba(0,0,0,0.7);
@@ -176,6 +175,10 @@ template{
   min-height: 7em;
   background-color: rgb(255, 255, 255, 0.8);
   border-radius: 1em;
+}
+
+.carousel p {
+  font-size: 2rem;
 }
 
 h2 {
