@@ -8,7 +8,7 @@
     <section class="expo">
         <h1 class="titre-expo">Un Raphaël heureux, c'est Lyon qui rayonne</h1>
         <p class="intro">
-        La lumière ce n'est pas que les lampadaires, les installations mais c'est aussi la lumière de l'écran, la lumière du geek comme Raphael au final. C'est elle qui rassemble et qui illumine nos coeurs.
+        La lumière ce n'est pas que les lampadaires, les installations mais c'est aussi la lumière de l'écran, la lumière du geek comme Raphaël au final. C'est elle qui rassemble et qui illumine nos coeurs.
         </p>
         <div class="galerie-neon">
             <div class="lampe-card-neon">
@@ -41,11 +41,15 @@
 
 .expo {
   padding: 4rem 2rem;
-  background: linear-gradient(130deg, #111 0%, #2c003e 100%);
   color: #fff;
   font-family: 'Trebuchet MS', sans-serif;
   min-height: 100vh;
   text-align: center;
+  background-image: 
+   linear-gradient(130deg, rgba(35, 35, 35, 0.5) 0%, rgba(90, 0, 130, 0.5) 100%),
+    url('../../assets/intruder.jpg');
+  background-position-x: center;
+  background-position-y: 200%;
 }
 
 .titre-expo {
