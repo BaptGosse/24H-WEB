@@ -40,6 +40,11 @@ const router = createRouter({
       path: '/flashbang',
       name: 'flashbang',
       component: FlashBang
+    },
+    {
+      path: '/defi',
+      name: 'defi',
+      component: () => import('../views/DefiView.vue'),
     }
   ],
 })

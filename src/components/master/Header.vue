@@ -21,6 +21,7 @@
           <li class="navbar-item"><router-link to="/indicateur" class="navbar-link">Indicateurs</router-link></li>
           <li class="navbar-item"><router-link to="/sleeping" class="navbar-link">Sommeil</router-link></li>
           <li class="navbar-item"><router-link to="/flashbang" class="navbar-link">Bonheur</router-link></li>
+          <li class="navbar-item"><router-link to="/defi" class="navbar-link">Défi</router-link></li>
       </ul>
     </nav>
   </header>
