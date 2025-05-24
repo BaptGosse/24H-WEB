@@ -18,6 +18,7 @@
       <ul class="navbar-list">
           <li class="navbar-item"><a href="/" class="navbar-link">Accueil</a></li>
           <li class="navbar-item"><a href="/lampadaire" class="navbar-link">Lampadaires</a></li>
+          <li class="navbar-item"><a href="/indicateur" class="navbar-link">indicateurs</a></li>
           <li class="navbar-item"><a href="/sleeping" class="navbar-link">Sommeil</a></li>
           <li class="navbar-item"><a href="/flashbang" class="navbar-link">Bonheur</a></li>
       </ul>

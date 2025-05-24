@@ -21,19 +21,28 @@
             <a href="/lampadaire"><i class="bi bi-cursor"></i> Lampadaires</a>
           </li>
           <li class="idk">
+            <a href="/indicateur"><i class="bi bi-cursor"></i> Indicateurs</a>
+          </li>
+          <li class="idk">
             <a href="/sleeping"><i class="bi bi-cursor"></i> Sommeil</a>
           </li>
           <li class="idk">
             <a href="/flashbang"><i class="bi bi-cursor"></i> Bonheur</a>
           </li>
+          <hr/>
+          <li class="idk">
+            <a href="/about"><i class="bi bi-cursor"></i> À propos du site</a>
+          </li>
         </ul>
       </div>
     </div>
     <hr>
-    <div class="copyright">
-      <p>Lyombre - Victor Yvray Ruffinatti & Louane K'Dual & Raphaël Aubry & Baptiste Gosselin</p>
-      <p>Développé par des étudiants de <a href="https://www.unicaen.fr/"><img src="../../assets/logo/unicaen-favicon.png" alt="Unicaen icon in the coryright"> Unicaen</a>.</p>
-    </div>
+    <router-link to="/about">
+      <div class="copyright">
+        <p>Lyombre - Victor Yvray Ruffinatti & Louane K'Dual & Raphaël Aubry & Baptiste Gosselin</p>
+        <p>Développé par des étudiants de <a href="https://www.unicaen.fr/"><img src="../../assets/logo/unicaen-favicon.png" alt="Unicaen icon in the coryright"> Unicaen</a>.</p>
+      </div>
+    </router-link>
   </footer>
 
 </template>
@@ -122,6 +131,11 @@ footer .copyright p a{
 footer .copyright p a img{
   height: 25px;
   margin: 0 4px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 @media screen and (max-width: 1482px) {

@@ -33,7 +33,7 @@ function afficheDetail(id) {
     </p>
 
     <h2>
-      Découvrez notre séléction de lampadaires!
+      Découvrez notre sélection de lampadaires !
     </h2>
 
     <div class="galerie">

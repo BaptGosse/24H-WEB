@@ -27,6 +27,16 @@ const router = createRouter({
       component: () => import('../views/SecretView.vue'),
     },  
     {
+      path: '/indicateur',
+      name: 'indicateur',
+      component: () => import('../views/IndicateurView.vue'),
+    },  
+    {
+      path: '/about',
+      name: 'about',
+      component: () => import('../views/AboutView.vue'),
+    },  
+    {
       path: '/flashbang',
       name: 'flashbang',
       component: FlashBang
