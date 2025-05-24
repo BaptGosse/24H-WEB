@@ -15,20 +15,16 @@
         <ul class="general-links">
           <h3>Liens rapides</h3>
           <li class="idk">
-            <a href="#"><i class="bi bi-cursor"></i> Must be determined</a>
+            <a href="/"><i class="bi bi-cursor"></i> Accueil</a>
           </li>
           <li class="idk">
-            <a href="#"><i class="bi bi-cursor"></i> Must be determined</a>
+            <a href="/lampadaire"><i class="bi bi-cursor"></i> Lampadaires</a>
           </li>
           <li class="idk">
-            <a href="#"><i class="bi bi-cursor"></i> Must be determined</a>
+            <a href="/sleeping"><i class="bi bi-cursor"></i> Sommeil</a>
           </li>
           <li class="idk">
-            <a href="#"><i class="bi bi-cursor"></i> Must be determined</a>
-          </li>
-          <hr>
-          <li class="idk">
-            <a href="#"><i class="bi bi-cursor"></i> Must be determined</a>
+            <a href="/flashbang"><i class="bi bi-cursor"></i> Bonheur</a>
           </li>
         </ul>
       </div>

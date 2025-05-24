@@ -75,6 +75,11 @@
       transition: transform 0.3s ease;
     }
 
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
     .card:hover {
       transform: scale(1.05);
     }
@@ -98,13 +103,5 @@
     .card .content p {
       font-size: 1rem;
       color: #555;
-    }
-
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background-color: #eee;
-      font-size: 0.9rem;
-      color: #777;
     }
 </style>
