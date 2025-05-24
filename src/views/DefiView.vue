@@ -37,7 +37,7 @@ function afficheDetail(id) {
 <style scoped>
 
 .iframe-card{
-  width: 98.8vw !important;
+  width: 90vw !important;
 }
 
 .page-lampadaires {
