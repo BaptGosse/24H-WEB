@@ -76,6 +76,9 @@ onMounted(() => {
       <br>
       - Inconnu
     </p>
+
+    <h2>Lyon, c'est aussi un campus plein de lumières</h2>
+    <iframe class="iframe-card" height="300px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/fr/map/les-lumieres-de-lyon_1229574?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=false&searchControl=false&tilelayersControl=false&embedControl=true&datalayersControl=false&onLoadPanel=none&captionBar=false&captionMenus=false&homeControl=false&fullscreenControl=true&captionControl=false&locateControl=false&measureControl=false&editinosmControl=false"></iframe>
   </div>
   
   <h3>
@@ -89,6 +92,10 @@ onMounted(() => {
 
 
 <style scoped>
+
+.iframe-card{
+  width: 98.8vw !important;
+}
 
 .lampe-card {
   background: #fff;
