@@ -4,7 +4,7 @@
       <img src="../assets/cuneifsorme.jpg" alt="Carte 1" class="carte-image-1">
       <div class="carte-info">
         <h3>Site réalisé par l'équipe 𒂙𒄘𒁺𒀱</h3>
-        <p>Peut-on seulement appelé ça un site ? C'est plus une oeuvre d'art</p>
+        <p>Peut-on seulement appeler ça un site ? C'est plus une oeuvre d'art</p>
       </div>
     </div>
     <div class="carte">
