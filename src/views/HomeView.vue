@@ -1,5 +1,6 @@
 <script setup>
 import { ref, onMounted } from 'vue'
+import ModeLumineux from '../components/ModeLumineux.vue'
 
 const titles = [
   "Ses Lampadaires...",
@@ -30,6 +31,8 @@ onMounted(() => {
       </div>
     </div>
   </div>
+
+    <ModeLumineux/>
 
   <div class="container">
     <h2>Lyon, la Ville Lumineuse</h2>
