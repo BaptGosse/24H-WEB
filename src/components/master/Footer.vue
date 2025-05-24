@@ -15,23 +15,23 @@
         <ul class="general-links">
           <h3>Liens rapides</h3>
           <li class="idk">
-            <a href="/"><i class="bi bi-cursor"></i> Accueil</a>
+            <router-link to="/"><i class="bi bi-cursor"></i> Accueil</router-link>
           </li>
           <li class="idk">
-            <a href="/lampadaire"><i class="bi bi-cursor"></i> Lampadaires</a>
+            <router-link to="/lampadaire"><i class="bi bi-cursor"></i> Lampadaires</router-link>
           </li>
           <li class="idk">
-            <a href="/indicateur"><i class="bi bi-cursor"></i> Indicateurs</a>
+            <router-link to="/indicateur"><i class="bi bi-cursor"></i> Indicateurs</router-link>
           </li>
           <li class="idk">
-            <a href="/sleeping"><i class="bi bi-cursor"></i> Sommeil</a>
+            <router-link to="/sleeping"><i class="bi bi-cursor"></i> Sommeil</router-link>
           </li>
           <li class="idk">
-            <a href="/flashbang"><i class="bi bi-cursor"></i> Bonheur</a>
+            <router-link to="/flashbang"><i class="bi bi-cursor"></i> Bonheur</router-link>
           </li>
           <hr/>
           <li class="idk">
-            <a href="/about"><i class="bi bi-cursor"></i> À propos du site</a>
+            <router-link to="/about"><i class="bi bi-cursor"></i> À propos du site</router-link>
           </li>
         </ul>
       </div>

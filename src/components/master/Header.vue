@@ -16,11 +16,11 @@
     <!-- Navbar (liens) -->
     <nav :class="{'navbar': true, 'active': menuOpen}">
       <ul class="navbar-list">
-          <li class="navbar-item"><a href="/" class="navbar-link">Accueil</a></li>
-          <li class="navbar-item"><a href="/lampadaire" class="navbar-link">Lampadaires</a></li>
-          <li class="navbar-item"><a href="/indicateur" class="navbar-link">indicateurs</a></li>
-          <li class="navbar-item"><a href="/sleeping" class="navbar-link">Sommeil</a></li>
-          <li class="navbar-item"><a href="/flashbang" class="navbar-link">Bonheur</a></li>
+          <li class="navbar-item"><router-link to="/" class="navbar-link">Accueil</router-link></li>
+          <li class="navbar-item"><router-link to="/lampadaire" class="navbar-link">Lampadaires</router-link></li>
+          <li class="navbar-item"><router-link to="/indicateur" class="navbar-link">Indicateurs</router-link></li>
+          <li class="navbar-item"><router-link to="/sleeping" class="navbar-link">Sommeil</router-link></li>
+          <li class="navbar-item"><router-link to="/flashbang" class="navbar-link">Bonheur</router-link></li>
       </ul>
     </nav>
   </header>
